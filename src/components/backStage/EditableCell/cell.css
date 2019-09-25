@@ -1,0 +1,62 @@
+.editable-cell-text-span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-width: 50px; */
+    max-width: 300px;
+    /* background: orange; */
+    /*max-height: 100px;*/
+}
+
+.editable-cell-text-span span {
+    display: block;
+}
+/**
+    表格单元格子展示
+*/
+.editable-cell-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editable-cell-input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editable-cell:hover .editable-cell-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 5px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 16px 16px;
+    word-break: break-word;
+    background: white;
+}
+
+.ant-table-column-sorters {
+    text-align: center;
+} 
+
+
+.ant-table-thead > tr:first-child > th:first-child {
+    border-top-left-radius: 4px;
+    background: #F0F2F5;
+}
+
+/**
+    表头css
+*/
+.ant-table-thead > tr > th {
+    background-color: #F0F2F5;
+}
+

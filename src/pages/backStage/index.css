@@ -1,0 +1,43 @@
+
+.bs-container {
+    min-height: 100vh;
+}
+
+.bs-layout {
+    height: 100vh; 
+    box-sizing: border-box;
+    background: #F0F2F5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bs-header {
+    /* border: 1px solid black; */
+    height: 8vh;
+    width: 100%;
+    background: #F0F2F5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bs-user-msg {
+    position: relative;
+    background-color: '#87d068';
+    float: right;
+    margin: 0 1vw;
+}
+
+.bs-content {
+    padding: 0 16px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.bs-footer {
+    margin: 0 16px;
+    box-sizing: border-box;
+    width: 100%;
+}

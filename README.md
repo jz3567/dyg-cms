@@ -1,1 +1,1 @@
-# dyg-cms
+- 根据配置项动态生成 table 的 cms 系统
